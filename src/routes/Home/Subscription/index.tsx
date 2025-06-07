@@ -4,15 +4,15 @@ import Button from "../../../components/Button";
 import Card from "../../../components/Card";
 
 
-export default function HomeBody() {
+export default function Subscription() {
 
     return (
         <main>
             <section>
                 <div className="container">
-
+                    
                     <div className="mt30 mb30">
-                        <Card title="Pagina inicial" />
+                        <Card title="Pagina de inscricao" />
                     </div>
 
                     <div className="dflex">
@@ -20,9 +20,10 @@ export default function HomeBody() {
                             <Button text="Ver promocao" />
                         </Link>
                     </div>
+
                 </div>
             </section>
 
-        </main >
+        </main>
     );
 }
